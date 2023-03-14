@@ -142,4 +142,26 @@ section span::after {
     font-size: small;
     margin: 10px 5px;
 }
+.check{
+    content: "\2713";
+}
+.cross{
+    content: "\2717";
+}
+.check::before{
+    content: "\2713";
+    color: greenyellow;
+    border: solid 1px greenyellow;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 2px;
+}
 
+.cross::before{
+    content: "\2717";
+    color: red;
+    border: solid 1px red;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 2px;
+}
