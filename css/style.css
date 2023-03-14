@@ -6,7 +6,7 @@ box-sizing: border-box;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(246,248,249);
 
 }
 
@@ -73,7 +73,7 @@ main{
 .mainsections {
     padding-left: 40px;
     padding-right: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
     padding-bottom: 40px;
 }
 
@@ -85,11 +85,12 @@ h3{
 }
 section span::after {
     content: "\25BC";
+    font-size: 70%;
 }
 
 .divblue {
     display: inline-block;
-    background-color: blue;
+    background-color: rgb(69,171,233);
     border-radius: 12px;
     padding: 5px 10px;
     color: white;
@@ -99,7 +100,7 @@ section span::after {
 }
 .divpurple{
     display: inline-block;
-    background-color: purple;
+    background-color: rgb(156,114,228);
     border-radius: 12px;
     padding: 5px 10px;
     color: white;
@@ -109,7 +110,7 @@ section span::after {
 
 .divgreen{
     display: inline-block;
-    background-color: green;
+    background-color: rgb(100,192,169);
     border-radius: 12px;
     padding: 5px 10px;
     color: white;
@@ -118,7 +119,7 @@ section span::after {
 }
 .divorange{
     display: inline-block;
-    background-color: orange;
+    background-color: rgb(242,158,51);
     border-radius: 12px;
     padding: 5px 10px;
     color: white;
@@ -127,7 +128,7 @@ section span::after {
 }
 .divviolet{
     display: inline-block;
-    background-color: violet;
+    background-color: rgb(216,99,160);
     border-radius: 12px;
     padding: 5px 10px;
     color: white;
@@ -136,7 +137,7 @@ section span::after {
 }
 .divolive{
     display: inline-block;
-    background-color: olive;
+    background-color: rgb(176,201,38);
     border-radius: 10px;
     padding: 5px 10px;
     color: white;
