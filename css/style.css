@@ -3,35 +3,38 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
-    background-color: gray;
+    background-color: rgb(233, 233, 233);
 
 }
 
 #conteiner{
     width: 80%;
-    margin: 20px auto;
+    margin: 40px auto;
     background-color: white;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 1%;
 }
 
 header {
-    padding 10px;
+    padding: 10px 20px;
     background-color:  white;
 }
 header span{
 
 }
 #logo{
-    height: 100px;
+    height: 50px;
     width: auto;
-    line-height: 100px;
+    line-height: 50px;
     vertical-align: middle;
 }
 
 #logo-text {
     color: black;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
 }
 main{
@@ -39,11 +42,13 @@ main{
 }
 #taskbar {
     height: 20px;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid rgb(233, 233, 233);
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
+
+    
     
     
 }
@@ -54,7 +59,7 @@ main{
     border-color: rgb(216, 215, 215);
     background-color: white;
     color:  rgb(216, 215, 215);
-    padding: 5px;
+    padding: 5px 10px;
 
 }
 .blue {
@@ -62,7 +67,7 @@ main{
     border-color: white;
     background-color: dodgerblue;
     color: white;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 .mainsections {
@@ -70,6 +75,10 @@ main{
     padding-right: 40px;
     margin-top: 20px;
     padding-bottom: 40px;
+}
+
+strong{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h3{
     display: inline-block;
@@ -81,8 +90,8 @@ section span::after {
 .divblue {
     display: inline-block;
     background-color: blue;
-    border-radius: 10%;
-    padding: 5px;
+    border-radius: 12px;
+    padding: 5px 10px;
     color: white;
     font-size: small;
     margin: 10px 5px;
@@ -91,8 +100,8 @@ section span::after {
 .divpurple{
     display: inline-block;
     background-color: purple;
-    border-radius: 10%;
-    padding: 5px;
+    border-radius: 12px;
+    padding: 5px 10px;
     color: white;
     font-size: small;
     margin: 10px 5px;
@@ -101,8 +110,8 @@ section span::after {
 .divgreen{
     display: inline-block;
     background-color: green;
-    border-radius: 10%;
-    padding: 5px;
+    border-radius: 12px;
+    padding: 5px 10px;
     color: white;
     font-size: small;
     margin: 10px 5px;
@@ -110,8 +119,8 @@ section span::after {
 .divorange{
     display: inline-block;
     background-color: orange;
-    border-radius: 10%;
-    padding: 5px;
+    border-radius: 12px;
+    padding: 5px 10px;
     color: white;
     font-size: small;
     margin: 10px 5px;
@@ -119,8 +128,8 @@ section span::after {
 .divviolet{
     display: inline-block;
     background-color: violet;
-    border-radius: 10%;
-    padding: 5px;
+    border-radius: 12px;
+    padding: 5px 10px;
     color: white;
     font-size: small;
     margin: 10px 5px;
@@ -128,19 +137,21 @@ section span::after {
 .divolive{
     display: inline-block;
     background-color: olive;
-    border-radius: 10%;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 5px 10px;
     color: white;
     font-size: small;
     margin: 10px 5px;
 }
 .divblank{
     display: inline-block;
-    border-radius: 10%;
-    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
     color: white;
     font-size: small;
     margin: 10px 5px;
+    
 }
 .check{
     content: "\2713";
@@ -150,11 +161,12 @@ section span::after {
 }
 .check::before{
     content: "\2713";
-    color: greenyellow;
-    border: solid 1px greenyellow;
+    color: rgb(99, 212, 143);
+    border: solid 1px rgb(99, 212, 143);
     border-radius: 50%;
     padding: 2px;
-    margin-right: 2px;
+    margin-right: 4px;
+    font-size: 85%;
 }
 
 .cross::before{
@@ -163,5 +175,6 @@ section span::after {
     border: solid 1px red;
     border-radius: 50%;
     padding: 2px;
-    margin-right: 2px;
+    margin-right: 4px;
+    font-size: 85%;
 }
