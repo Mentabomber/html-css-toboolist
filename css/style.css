@@ -35,25 +35,111 @@ header span{
     font-weight: bold;
 }
 main{
-    padding-left: 20px;
-    padding-right: 20px;
+   
 }
 #taskbar {
     height: 20px;
-    border-radius: 5%;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid grey;
     padding-bottom: 40px;
-    background-color: blue;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    
     
 }
 
-button #blue{
-    display: inline-block;
-    width: 150px;
-    color: azure;
-}
 
-#blue {
+.grey {
+    border-radius: 10%;
+    border-color: rgb(216, 215, 215);
+    background-color: white;
+    color:  rgb(216, 215, 215);
+    padding: 5px;
+
+}
+.blue {
+    border-radius: 10%;
+    border-color: white;
     background-color: dodgerblue;
     color: white;
+    padding: 5px;
 }
+
+.mainsections {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+h3{
+    display: inline-block;
+}
+section span::after {
+    content: "\25BC";
+}
+
+.divblue {
+    display: inline-block;
+    background-color: blue;
+    border-radius: 10%;
+    padding: 5px;
+    color: white;
+    font-size: small;
+    margin: 10px 5px;
+
+}
+.divpurple{
+    display: inline-block;
+    background-color: purple;
+    border-radius: 10%;
+    padding: 5px;
+    color: white;
+    font-size: small;
+    margin: 10px 5px;
+}
+
+.divgreen{
+    display: inline-block;
+    background-color: green;
+    border-radius: 10%;
+    padding: 5px;
+    color: white;
+    font-size: small;
+    margin: 10px 5px;
+}
+.divorange{
+    display: inline-block;
+    background-color: orange;
+    border-radius: 10%;
+    padding: 5px;
+    color: white;
+    font-size: small;
+    margin: 10px 5px;
+}
+.divviolet{
+    display: inline-block;
+    background-color: violet;
+    border-radius: 10%;
+    padding: 5px;
+    color: white;
+    font-size: small;
+    margin: 10px 5px;
+}
+.divolive{
+    display: inline-block;
+    background-color: olive;
+    border-radius: 10%;
+    padding: 5px;
+    color: white;
+    font-size: small;
+    margin: 10px 5px;
+}
+.divblank{
+    display: inline-block;
+    border-radius: 10%;
+    padding: 5px;
+    color: white;
+    font-size: small;
+    margin: 10px 5px;
+}
+
