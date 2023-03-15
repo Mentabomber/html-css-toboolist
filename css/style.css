@@ -37,22 +37,18 @@ header span{
     font-size: 40px;
     font-weight: bold;
 }
-main{
-   
-}
 #taskbar {
     height: 20px;
     border-bottom: 2px solid rgb(233, 233, 233);
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 20px;
-
-    
-    
-    
+    padding-top: 20px;  
 }
 
+div {
+    margin-bottom: 10px;
+}
 
 .grey {
     border-radius: 10%;
@@ -155,10 +151,15 @@ section span::after {
     
 }
 .check{
+    display: inline-block;
     content: "\2713";
+    padding-bottom: 10px;
 }
 .cross{
+    display: inline-block;
     content: "\2717";
+    padding-bottom: 10px;
+
 }
 .check::before{
     content: "\2713";
